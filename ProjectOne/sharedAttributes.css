@@ -1,0 +1,54 @@
+.header {
+  text-align: center;
+}
+
+.gallery {
+align-items: center;
+margin-left: 10%;
+}
+
+.galleryImage {
+  width: 30%;
+  height: 300px;
+  border-color: black;
+  border-width: 2px;
+  border-style: solid;
+  back-fit: cover;
+
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  color: black;
+  text-align: center;
+  margin-top: -20px;
+}
+
+ul.bottomDiv li.nav {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: inline;
+}
+
+li.nav:not(:first-child):before {
+    content: " | ";
+    color: grey;
+    padding: 20px
+}
+
+.bottomDiv {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 50px;
+  text-align: center;
+}
+
+.copyright {
+  font-weight: bold;
+}

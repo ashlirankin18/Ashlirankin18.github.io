@@ -1,0 +1,73 @@
+.icon {
+  width: 40px;
+  height: 40px;
+  padding-right: 10px;
+}
+
+.contactInfo {
+  align-items: center;
+  padding: 20px 0px;
+}
+
+.heading {
+  font-weight: bold;
+  padding-bottom: 12px;
+}
+
+.tableTitle {
+  font-weight: bold;
+}
+
+.costTable {
+  border-style: solid;
+  border-color: black;
+  border-width: 2px;
+}
+
+.headerRow {
+  background-color: lightgreen;
+  font-weight: bold;
+}
+
+.warningTag {
+  background-color: lightpink;
+}
+
+.pinkDiv {
+  width: 100%;
+  height: 80%;
+  background-color: pink;
+  border-width: 2px;
+  border-color: black;
+  border-style: solid;
+}
+
+.pinkDivTitle {
+  color: white;
+}
+
+.galleryImageIndex {
+  width: 20%;
+  height: 200px;
+  border-color: black;
+  border-width: 2px;
+  border-style: solid;
+  back-fit: cover;
+}
+
+.galleryImageIndexCaption {
+  color: white;
+}
+
+.galleryParagraph {
+  color: white;
+}
+
+.headerImage {
+  height: 75px;
+  width: 75px;
+}
+
+.rightAlign {
+  float: right;
+}
