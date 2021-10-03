@@ -4,4 +4,4 @@
 
 ## [Assignment Two](https://Ashlirankin18.github.io/assignment2.html)
 
-## [ProjectOne](https://Ashlirankin18.github.io/PorjectOne/index.html)
+## [ProjectOne](https://Ashlirankin18.github.io/ProjectOne/index.html)
