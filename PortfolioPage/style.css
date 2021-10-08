@@ -72,10 +72,11 @@ width: 50%;
 .meetupDescription {
   width: 70%;
   font-size: 18px;
+  position: relative;
 }
 
 .meetupDiv {
-  width: 100%;
+  
   margin: auto;
 }
 
