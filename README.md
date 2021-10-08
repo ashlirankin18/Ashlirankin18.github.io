@@ -5,3 +5,5 @@ This project displays a simple webpage displaying the HTML tags and attributes l
 This link represents a webpage which builds on the skills displayed on the first assignment.
 
 # [ProjectOne](https://Ashlirankin18.github.io/Project1/index.html)
+
+# [Beginner Portfolio Page](https://Ashlirankin18.github.io/PortfolioPage/index.html)
