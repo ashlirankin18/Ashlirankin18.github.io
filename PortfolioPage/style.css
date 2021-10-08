@@ -1,17 +1,7 @@
-@font-face {
-  font-family: 'font';
-  src: url('fonts/YanoneKaffeesatz-Bold') format('truetype');
-  src: url('fonts/YanoneKaffeesatz-ExtraLight') format('truetype');
-  src: url('fonts/YanoneKaffeesatz-Light') format('truetype')
-  src: url('fonts/YanoneKaffeesatz-Medium') format('truetype')
-  src: url('fonts/YanoneKaffeesatz-Regular') format('truetype')
-  src: url('fonts/YanoneKaffeesatz-Semibold') format('truetype')
-}
 
 body {
   background-color: black;
   color: white;
-  font-family: 'font';
 }
 
 .titleIcon {
