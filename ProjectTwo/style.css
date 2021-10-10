@@ -28,7 +28,7 @@ border-style: solid;
 background-color: rgba(163, 163, 173,0.2);
 }
 
-.subHeaderBox{
+.subHeaderBox {
     width: 100%;
     height: 600px;
     background-color: green;
@@ -40,7 +40,6 @@ background-color: rgba(163, 163, 173,0.2);
     height: 100%;
     position: relative;
     float: left;
-
 }
 
 .subHeaderBox-one-image {
