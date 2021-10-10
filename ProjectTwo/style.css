@@ -184,9 +184,17 @@ font-family: monospace;
 }
 
 .copyrightInfo {
-
+color: white;
+font-family: monospace;
+text-align: center;
+padding-top: 10%;
 }
 
+.note1 {
+    color: white;
+font-family: monospace;
+text-align: center;
+}
 .footerIcon {
     width: 44px;
     height: 44px;
