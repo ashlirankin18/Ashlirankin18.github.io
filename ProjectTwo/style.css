@@ -31,7 +31,6 @@ background-color: rgba(163, 163, 173,0.2);
 .subHeaderBox {
     width: 100%;
     height: 600px;
-    background-color: green;
 }
 
 .subHeaderBox-one {
@@ -71,4 +70,57 @@ background-color: rgba(163, 163, 173,0.2);
     height: 92%;
     background-image: linear-gradient(rgba(255, 255, 255, 0.418), rgba(255, 182, 193, 0.418));
     position: absolute;
+}
+
+.subHeaderBox-two-gradient1 {
+    margin-top: 1.8%;
+    margin-left: 10%;
+    width: 80%;
+    height: 92%;
+    background-image: linear-gradient(rgb(255, 255, 255), rgb(255, 182, 193));
+    position: absolute;
+}
+
+.subHeaderBox-two-quote {
+    position: absolute;
+    font-size: 20px;
+font-weight: normal;
+padding: 20px ;
+}
+
+.subHeaderBox-two {
+    margin-left: 6%;
+    width: 40%;
+    height: 100%;
+    position: relative;
+    float: left;
+}
+
+.secondQuoteBox {
+margin-top: 20%;
+}
+
+/* Product Section */
+
+.productShowCaseBox {
+    height: 600px;
+
+}
+
+.individualProductBox {
+    background-color: green;
+    width: 100%;
+    margin-left: 16%;
+ 
+}
+
+.single-product-layout {
+    float: left;
+    padding-left: 150px;
+}
+
+.productShowCaseBoxTwo {
+    width: 100%;
+    height: 600px;
+
 }
