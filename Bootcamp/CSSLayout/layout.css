@@ -1,0 +1,73 @@
+.box {
+  background-color: lightblue;
+  height: 500px;
+overflow: visible;
+}
+
+.headerImage {
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  object-fit: fill;
+  margin: auto;
+  position: relative;
+}
+
+.messageBox {
+position: absolute;
+top: 55%;
+left: 2%;
+color: white;
+font-weight: bold;
+font-size: 25px;
+}
+
+.coverImage {
+  border-color: white;
+  border-width: 5px;
+  border-style: solid;
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  top: 46%;
+  right: 2%;
+}
+
+.mainDiv {
+    text-align: center;
+}
+
+.divOne {
+  margin: auto;
+  text-align: center;
+  padding-top: 10px;
+}
+
+img {
+  width: 50%;
+  height: 200px;
+}
+
+.sub {
+  width: 50%;
+  margin: auto;
+  float: left;
+  padding-bottom: 50px;
+}
+
+.caption {
+  width: 80%;
+  margin: auto;
+  text-align: left;
+  padding-top: 24px;
+  font-weight: bold;
+}
+
+.subCaption {
+  width: 80%;
+  margin: auto;
+  padding-top: 12px;
+  text-align: left;
+  padding-bottom: : 100px;
+}

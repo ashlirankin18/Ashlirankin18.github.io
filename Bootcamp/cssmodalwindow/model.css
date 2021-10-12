@@ -1,0 +1,55 @@
+.popupButton {
+    background-color: lightblue;
+    border-radius: 12px;
+    height: 44px;
+}
+
+.modalWindow {
+top: 0px;
+right: 0px;
+left: 0px;
+bottom: 0px;
+background-color: rgb(140, 187, 144, 0.9);
+position: fixed;
+opacity: 0;
+pointer-events: none;
+}
+
+
+.modalWindow:target {
+    opacity: 1;
+    pointer-events: all;
+}
+
+.messageBlock {
+width: 50%;
+height: 50%;
+background-color: white;
+position: absolute;
+text-align: center;
+top: 5%;
+right: 25%;
+}
+
+.rowOne {
+padding-top: 2px;
+background-color: wheat;
+text-align: left;
+margin: auto;
+position: relative; 
+}
+
+.closeButton {
+    float: right;
+    position: absolute;
+    top: 20%;
+    right: 0%;
+    width: 44px;
+    height: 44px;
+    font-size: 30px;
+    font-weight: bolder;
+    color: gray;
+    text-decoration: none;
+    text-align: center;
+    line-height: 44px;
+}
