@@ -1,7 +1,9 @@
+
 /* Navbar Elemets */
 .headerLogo {
-width: 100px;
-height: 100px;
+width: 8%;
+height: 8%;
+margin-left: 1% ;
 float: left;
 border-radius: 10px;
 border-style: solid;
@@ -30,16 +32,25 @@ animation-iteration-count: none;
 
 .textBoxHeader {
     float: left;
-    margin-left: 5%;
+    height: 35%;
+    margin-top: -1%;
+    margin-left: 2%;
+    width: 50%;
 }
 
 .headerTextOne {
+    font-family: monospace;
+    font-size: 200% ;
+    font-weight: bolder;
     animation-name: moveHeaderOne;
     animation-duration: 3s;
     animation-iteration-count: none;
 }
 
 .headerTextTwo {
+    font-family: monospace;
+    font-size: 150%;
+    font-weight: bolder;
     animation-name: moveHeaderTwo;
     animation-duration: 3s;
     animation-iteration-count: none;
@@ -52,15 +63,15 @@ animation-iteration-count: none;
      }
  
      33% {
-         transform: translateY(25px);
+         transform: translateY(30px);
      }
  
      66% {
-         transform: translateY(35px)
+         transform: translateY(50px)
      }
  
      100% {
-         transform: translateY(100px)
+         transform: translateY(140px)
      }
 }
 
@@ -83,18 +94,22 @@ animation-iteration-count: none;
 }
 
 /* Main header */
+.mainHeaderBox {
+    height: 1000px;
+    margin-top: 1% ;
+}
 
 .mainHeaderBox-headerImage {
     width: 100%;
-    height: 70%;
+    height: 80%;
     position: relative;
 }
 
 .mainHeaderBox-quote {
     position: absolute;
-    top: 49%;
-    width: 20%;
-    height: 20%;
+
+    width: 30%;
+    height: 30%;
     text-align: center;
 }
 
@@ -111,13 +126,13 @@ animation-iteration-count: none;
 
 .subHeaderBox {
     width: 100%;
-    height: 600px;
+    height: 800px;
 }
 
 .subHeaderBox-one {
     margin-left: 6%;
     width: 40%;
-    height: 100%;
+    height: 80%;
     position: relative;
     float: left;
 }
@@ -131,24 +146,21 @@ animation-iteration-count: none;
 }
 
 .subHeaderBox-one-quote {
-    width: 40%;
+    width: 60%;
     color: white;
     border-color: white;
     border-width: 3px;
     border-style: solid;
-    margin-top: 20%;
-    margin-left: 30%;
     position: absolute;
-    font-size: 20px;
+    font-size: 16px;
     background-color: rgba(163, 163, 173,0.5);
-    
 }
 
 .subHeaderBox-one-gradient1 {
-    margin-top: -60.9%;
+    top: 0%;
     margin-left: 10%;
     width: 80%;
-    height: 92%;
+    height: 94%;
     background-image: linear-gradient(rgba(255, 255, 255, 0.418), rgba(255, 182, 193, 0.418));
     position: absolute;
 }
@@ -172,7 +184,7 @@ padding: 20px ;
 .subHeaderBox-two {
     margin-left: 6%;
     width: 40%;
-    height: 100%;
+    height: 80%;
     position: relative;
     float: left;
 }
@@ -181,6 +193,42 @@ padding: 20px ;
 margin-top: 20%;
 }
 
+/* Slideshow */
+
+.stage {
+    margin-top: 10%;
+    width: 100%;
+    height:60px;
+    position: absolute;
+  }
+
+  .slidegroup {
+    width: 200%;
+    height:100%;
+  
+    animation-name: moveSlide;
+    animation-duration: 5s;
+  }
+
+  .slide{
+    text-align: center;
+    float: left;
+    width:50%;
+    height: 100%;
+    }
+    
+    
+    .h1 {background-color: blue;}
+    .h2 {
+      background-color: purple;
+    }
+
+    @keyframes moveSlide {
+        0% {margin-left: 0%;}
+        33% {margin-left: -100%;}
+        100% {margin-left: -200%;}
+      }
+    
 /* Product Section */
 
 .productShowCaseBox {
