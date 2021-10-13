@@ -1,0 +1,115 @@
+.firstRow-Image {
+position: relative;
+width: 100%;
+}
+
+.firstRow-floatingInfoBox {
+    position: absolute;
+    background-color: rgba(163, 154, 154, 0.4);
+    width: 30%;
+    right: 3%;
+    top: 100%;
+    text-align: center;
+}
+
+.clickMeButton {
+    top: 45px;
+}
+
+.containerBox {
+  width: 100%;
+  height: 400px;
+}
+
+.elementBox {
+  width: 30%
+  height 400px;
+  float: left;
+  text-align: center;
+  margin-left: 3%;
+}
+
+.row {
+position: relative;
+  text-align: center;
+}
+
+.minuteHand {
+  top: 36%;
+  left: 49.9%;
+  transform: rotate(-90deg);
+  position: absolute;
+  animation-duration: 10s;
+  animation-name: moveMinute;
+  transform-origin: 5% 50%;
+}
+
+.hourHand {
+  left: 49.9%;
+  top: 36%;
+  transform-origin: 3% 50%;
+  position: absolute;
+  animation-name: moveHour;
+  animation-duration: 10s;
+}
+
+@keyframes moveMinute {
+  0% {
+    transform: rotateZ(10deg);
+  }
+
+20% {
+  transform: rotateZ(30deg);
+}
+  30% {
+    transform: rotateZ(60deg);
+  }
+40% {  transform: rotateZ(90deg);
+}
+  50% {
+    transform: rotateZ(120deg);
+  }
+  60% {
+    transform: rotateZ(150deg);
+  }
+  70% {
+    transform: rotateZ(180deg);
+  }
+  80% {
+    transform: rotateZ(210deg);
+  }
+  90% {
+
+  }
+  100% {
+    transform: rotateZ(270deg);
+  }
+}
+
+@keyframes moveHour {
+  0% {
+    transform: rotateZ(10deg);
+  }
+
+20% {
+  transform: rotateZ(60deg);
+}
+  30% {
+    transform: rotateZ(80deg);
+  }
+40% {  transform: rotateZ(120deg); }
+  50% { transform: rotateZ(160deg); }
+  60% {
+    transform: rotateZ(190deg);
+  }
+  70% {
+    transform: rotateZ(230deg);
+  }
+  80% {
+    transform: rotateZ(250deg);
+  }
+
+  100% {
+    transform: rotateZ(270deg);
+  }
+}
