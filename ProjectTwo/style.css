@@ -152,7 +152,7 @@ animation-iteration-count: none;
 }
 
 .subHeaderBox-one-quote {
-    width: 60%;
+    width: 100%;
     height: 50%
     color: white;
     border-color: white;
@@ -183,9 +183,10 @@ animation-iteration-count: none;
 
 .subHeaderBox-two-quote {
   position: relative;
-  font-size: 20px;
+  font-size: 16px;
   font-weight: normal;
-  padding: 20px;
+  width: 100%;
+  height: 100%;
 }
 
 .subHeaderBox-two {
@@ -200,6 +201,7 @@ animation-iteration-count: none;
 .secondQuoteBox {
 margin-top: 35%;
 position: relative;
+
 }
 
 /* Slideshow */
