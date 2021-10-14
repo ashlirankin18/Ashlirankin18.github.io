@@ -9,4 +9,4 @@ This link represents a webpage which builds on the skills displayed on the first
 # [Beginner Portfolio Page](https://Ashlirankin18.github.io/PortfolioPage/index.html)
 
 # [Assignment Three](https://Ashlirankin18.github.io/Assignment3/layout.html)
-# [ProjectTwo](https://Ashlirankin18.github.io/Project2/index.html)
+# [ProjectTwo](https://Ashlirankin18.github.io/ProjectTwo/index.html)
