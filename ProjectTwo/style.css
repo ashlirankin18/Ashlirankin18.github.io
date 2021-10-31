@@ -392,7 +392,7 @@ text-align: center;
     margin-left: 5%;
     font-family: monospace;
     font-weight: bolder;
-    font-size: 2em;
+    font-size: 1vw;
 }
 
 .modalContainerView {
@@ -410,9 +410,10 @@ width: 100%;
 .textBox {
     width: 40%;
     height: 50%;
-    margin-top: 5%;
-    margin-left: 50%;
-    position: absolute;
+    margin: auto;
+    position: relative;
+    float: right;
+    top: -20%;
 }
 
 .imgDiv {
